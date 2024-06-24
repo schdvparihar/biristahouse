@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92f1a2580a.js" crossorigin="anonymous"></script>
+    <title>Birista House</title>
+    <link rel="stylesheet" href="/styles/catering.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav">
+            <div class="logo">
+                <img class="logo-image" src="/assets/dish.png" alt="">
+                <a id="logo-text" href="index.html">Birista House</a>
+            </div>
+            <div class="nav-links">
+                <a href="about.html">About</a>
+                <a href="index.html#Menu">Menu</a>
+                <a href="catering.html">Catering</a>
+                <a href="#Blog">Blog</a>
+            </div>
+            <div class="contact">
+                <a><i style="margin-right: 5px;" class="fa-solid fa-phone"></i>032 123 4567</a>
+            </div>
+        </div>
+    </header>
+    <body>
+        <main>
+            <div class="heading">Book your dining experience</div>
+            <div class="container">
+                <h1>Make a reservation</h1>
+                <form id="reservationForm">
+                    <div class="form-group">
+                        <label for="name">Name*</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone*</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email ID*</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of People</label>
+                        <input type="number" id="guests" name="guests" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Booking Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Time</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="instructions">Let us know if you have any special instruction to be followed</label>
+                        <textarea id="instructions" name="instructions"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Book Now</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </body>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>Discover our story, our philosophy, and what makes us unique in the culinary world.</p>
+                <a href="about.html">Learn More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+            </div>
+            <div class="footer-section">
+                <div class="hours">
+                    <h3>Hours</h3>
+                    <div class="hours-list">
+                        <div class="hours-item">
+                            <span class="day">Monday to Thursday</span>
+                            <span class="time">11:00 AM - 10:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Friday to Saturday</span>
+                            <span class="time">11:00 AM - 11:00 PM</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day">Sunday</span>
+                            <span class="time">11:00 AM - 9:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <p>123 Main Street, City, State 12345</p>
+                    <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                    <p><i class="fa-regular fa-envelope"></i> info@restaurant.com</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Birista House. All rights reserved.</p>
+            <!-- <p class="footer-sachdev">Designed by <a href="https://sachdev.pages.dev/" target="_blank">Sachdev</a></p> -->
+        </div>
+    </footer>
+    <script src="/js/catering.js"></script>
+    </body>
+    
+    </html>

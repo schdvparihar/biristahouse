@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/92f1a2580a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Birista House</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="nav">
+            <div class="logo">
+                <img class="logo-image" src="/assets/dish.png" alt="">
+                <a id="logo-text" href="index.html">Birista House</a>
+            </div>
+            <div class="nav-links">
+                <a href="about.html">About</a>
+                <a href="#Menu">Menu</a>
+                <a href="catering.html">Catering</a>
+                <a href="#Blog">Blog</a>
+            </div>
+            <div class="contact">
+                <div><a href="ubereats.com" target="_blank"><img src="/assets/uber.png" alt=""></a></div>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <aside id="sidebar">
+        <div class="sidebar-links">
+            <a href="about.html">About</a>
+            <a href="catering.html">Catering</a>
+            <a href="#Blog">Blog</a>
+        </div>
+    </aside>
+    <main>
+    <section id="home" class="main">
+        <div id="hero-left">
+            <h2 id="hero-text">Savor the flavor, savor the moment.</h2>
+            <p id="hero-subtext">Indulge in the art of flavor, where every bite is a masterpiece. Savor the taste, savor the moment, and let the love
+            shine through.</p>
+            <a href="#Menu" class="hero-button">Explore Menu</a>
+            <div class="left-bottom">
+                <img src="/assets/left-content.jpg" alt="">
+            </div>
+        </div>
+        <div id="hero-right">
+            <img src="/assets/hero2.jpg" alt="">
+            <!-- <div>
+                <h2>Authentic Dishes</h2>
+                <p>Taste the authenticity, feel the culture.</p>
+            </div> -->
+        </div>
+    </section>
+    <section>
+        <div class="strip-hero">
+            <p><span class="new">NEW!</span> CHICKEN KORMA <span style="font-size:100%;color:yellow;">&starf;</span> <span
+                    class="new">NEW!</span> CHICKEN KORMA <span style="font-size:100%;color:yellow;">&starf;</span><span
+                    class="new">NEW!</span> CHICKEN KORMA <span style="font-size:100%;color:yellow;">&starf;</span><span
+                    class="new">NEW!</span> CHICKEN KORMA</p>
+        </div>
+    </section>
+    <section id="home2" class="main2">
+        <div id="hero-right-2">
+            <img src="/assets/left-icons.png" alt="">
+            <div>
+                <h2>Authentic Dishes</h2>
+                <p>Taste the authenticity, feel the culture.</p>
+            </div>
+        </div>
+        <div class="strip-auth">
+            <p><span class="new">NEW!</span> CHICKEN KORMA <span style="font-size:100%;color:yellow;">&starf;</span> <span
+                    class="new">NEW!</span> CHICKEN KORMA <span style="font-size:100%;color:yellow;">&starf;</span><span
+                    class="new">NEW!</span> CHICKEN KORMA <span style="font-size:100%;color:yellow;">&starf;</span><span
+                    class="new">NEW!</span> CHICKEN KORMA</p>
+        </div>
+        <div id="hero-left-2">
+            <h2 id="hero-text">A Taste of Tradition, A Pinch of Innovation</h2>
+            <p id="hero-subtext">For generations, our family has been perfecting the art of cooking with heart, and we can't wait to share it with you.</p>
+            <a href="#Menu" class="hero-button">Explore Menu</a>
+            <div class="left-bottom">
+                <img src="/assets/dish2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="strip">
+        <p><span class="new">NEW!</span> CHICKEN KORMA  <span style="font-size:100%;color:yellow;">&starf;</span> <span class="new">NEW!</span> CHICKEN KORMA <span style="font-size:100%;color:yellow;">&starf;</span><span class="new">NEW!</span> CHICKEN KORMA <span style="font-size:100%;color:yellow;">&starf;</span><span
+                    class="new">NEW!</span> CHICKEN KORMA</p>
+        </div>
+    </section>
+    <section id="Menu">
+        <div id="menu-text">
+            <h2 id="menu-heading">Explore Our Menu</h2>
+            <p id="menu-sub-heading">Each dish promises an unforgettable dining experience, blending innovation with
+                tradition to delight your senses.</p>
+        </div>
+        <div class="menu-container">
+            <!-- Veg Appetizers Section -->
+            <div class="menu-section" onclick="toggleMenu('veg-appetizers')">
+                <div class="menu-title">Veg Appetizers</div>
+                <div id="veg-appetizers" class="menu-items">
+                    <div><span>Samosa</span> <span>$5.99</span></div>
+                    <div><span>Onion Pakora</span> <span>$5.99</span></div>
+                    <div><span>Mirchi Bajji</span> <span>$4.99</span></div>
+                    <div><span>Stuffed Mirchi Bajji</span> <span>$5.99</span></div>
+                    <div><span>Cut Mirchi</span> <span>$5.99</span></div>
+                    <div><span>Crispy Corn</span> <span>$9.99</span></div>
+                    <div><span>Palli Masala</span> <span>$9.95</span></div>
+                    <div><span>Veg Manchuria</span> <span>$10.99</span></div>
+                    <div><span>Paneer Pakora</span> <span>$9.99</span></div>
+                    <div><span>Paneer Green Chilli</span> <span>$13.99</span></div>
+                    <div><span>Paneer 65</span> <span>$13.99</span></div>
+                    <div><span>Gobi 65</span> <span>$11.99</span></div>
+                    <div><span>Gobi Manchuria</span> <span>$11.99</span></div>
+                    <div><span>Gobi Green Chilli</span> <span>$12.99</span></div>
+                    <div><span>Gobi Majestic</span> <span>$12.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Non-Veg Appetizers Section -->
+            <div class="menu-section" onclick="toggleMenu('non-veg-appetizers')">
+                <div class="menu-title">Non-Veg Appetizers</div>
+                <div id="non-veg-appetizers" class="menu-items">
+                    <div><span>Chicken Pakora</span> <span>$11.99</span></div>
+                    <div><span>Chicken Manchuria</span> <span>$12.99</span></div>
+                    <div><span>Chicken Majestic</span> <span>$13.99</span></div>
+                    <div><span>Chicken 65</span> <span>$13.99</span></div>
+                    <div><span>Green Chilly Chicken</span> <span>$13.99</span></div>
+                    <div><span>Chicken Roast</span> <span>$13.99</span></div>
+                    <div><span>Aollo Fish</span> <span>$14.99</span></div>
+                    <div><span>Shrimp Fry</span> <span>$14.99</span></div>
+                    <div><span>Chilly Shrimp</span> <span>$14.99</span></div>
+                    <div><span>Shrimp 65</span> <span>$14.99</span></div>
+                    <div><span>Goat Sukka</span> <span>$16.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Veg Main Entries Section -->
+            <div class="menu-section" onclick="toggleMenu('veg-main-entries')">
+                <div class="menu-title">Veg Main Entries</div>
+                <div id="veg-main-entries" class="menu-items">
+                    <div><span>Dal Tadka</span> <span>$10.99</span></div>
+                    <div><span>Chana Masala</span> <span>$11.99</span></div>
+                    <div><span>Veg Korma</span> <span>$13.99</span></div>
+                    <div><span>Paneer Tikka Masala</span> <span>$13.99</span></div>
+                    <div><span>Butter Paneer</span> <span>$13.99</span></div>
+                    <div><span>Kadai Paneer</span> <span>$12.99</span></div>
+                    <div><span>Palak Paneer</span> <span>$12.99</span></div>
+                    <div><span>Methi Chaman Paneer</span> <span>$13.99</span></div>
+                    <div><span>Malai Kofta</span> <span>$13.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Non-Veg Main Entries Section -->
+            <div class="menu-section" onclick="toggleMenu('non-veg-main-entries')">
+                <div class="menu-title">Non-Veg Main Entries</div>
+                <div id="non-veg-main-entries" class="menu-items">
+                    <div><span>Egg Curry</span> <span>$11.99</span></div>
+                    <div><span>Nawabi Chicken Curry</span> <span>$13.99</span></div>
+                    <div><span>Kadai Chicken</span> <span>$13.99</span></div>
+                    <div><span>Hyderbad Dum Chicken</span> <span>$13.99</span></div>
+                    <div><span>Chicken Vindaloo</span> <span>$13.99</span></div>
+                    <div><span>Malai Chicken Curry</span> <span>$13.99</span></div>
+                    <div><span>Chicken Korma</span> <span>$13.99</span></div>
+                    <div><span>Chicken Tikka Masala</span> <span>$13.99</span></div>
+                    <div><span>Butter Chicken</span> <span>$13.99</span></div>
+                    <div><span>Saag Chicken</span> <span>$13.99</span></div>
+                    <div><span>Gongura Chicken</span> <span>$13.99</span></div>
+                    <div><span>Nawabi Goat Curry</span> <span>$16.99</span></div>
+                    <div><span>Gongura Goat Curry</span> <span>$16.99</span></div>
+                    <div><span>Goat Korma</span> <span>$16.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Tandoor Section -->
+            <div class="menu-section" onclick="toggleMenu('tandoor')">
+                <div class="menu-title">Tandoor</div>
+                <div id="tandoor" class="menu-items">
+                    <div><span>Paneer Tikka Kebab</span> <span>$13.99</span></div>
+                    <div><span>Tandoor Chicken Kebab</span> <span>$14.99</span></div>
+                    <div><span>Tangedi Kebab</span> <span>$14.99</span></div>
+                    <div><span>Mint Chicken Kebab</span> <span>$14.99</span></div>
+                    <div><span>Malai Chicken Kebab</span> <span>$14.99</span></div>
+                    <div><span>Garlic Chicken Kebab</span> <span>$14.99</span></div>
+                    <div><span>Chicken Mixed Platter</span> <span>$16.99</span></div>
+                    <div><span>Goat Chops</span> <span>$17.99</span></div>
+                    <div><span>Pathar Ka Gosh</span> <span>$15.99</span></div>
+                    <div><span>Seesh Kebab</span> <span>$15.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Naan Section -->
+            <div class="menu-section" onclick="toggleMenu('naan')">
+                <div class="menu-title">Naan</div>
+                <div id="naan" class="menu-items">
+                    <div><span>Garlic Naan</span> <span>$2.49</span></div>
+                    <div><span>Phulka Roti (2pc)</span> <span>$2.49</span></div>
+                    <div><span>Butter Naan</span> <span>$1.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Noodles and Fried Rice Section -->
+            <div class="menu-section" onclick="toggleMenu('noodles-fried-rice')">
+                <div class="menu-title">Noodles and Fried Rice</div>
+                <div id="noodles-fried-rice" class="menu-items">
+                    <div><span>Veg Noodles</span> <span>$10.99</span></div>
+                    <div><span>Egg Noodles</span> <span>$11.99</span></div>
+                    <div><span>Chicken Noodles</span> <span>$12.99</span></div>
+                    <div><span>Veg Fried Rice</span> <span>$10.99</span></div>
+                    <div><span>Egg Fried Rice</span> <span>$11.99</span></div>
+                    <div><span>Chicken Fried Rice</span> <span>$12.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Pulavs Section -->
+            <div class="menu-section" onclick="toggleMenu('pulavs')">
+                <div class="menu-title">Pulavs</div>
+                <div id="pulavs" class="menu-items">
+                    <div><span>Veg Pulav</span> <span>$12.99</span></div>
+                    <div><span>Gongura Pulav</span> <span>$13.99</span></div>
+                    <div><span>Paneer Pulav</span> <span>$14.99</span></div>
+                    <div><span>Gongura Paneer Pulav</span> <span>$14.99</span></div>
+                    <div><span>Chicken Yakhini Pulav</span> <span>$14.99</span></div>
+                    <div><span>Gongura Chicken Pulav</span> <span>$14.99</span></div>
+                    <div><span>Chicken Fry Pulav</span> <span>$14.99</span></div>
+                    <div><span>Mutton Yakhini Pulav</span> <span>$17.99</span></div>
+                    <div><span>Gongura Mutton Pulav</span> <span>$17.99</span></div>
+                    <div><span>Mutton Fry Pulav</span> <span>$17.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Biryani Specials Section -->
+            <div class="menu-section" onclick="toggleMenu('biryani-specials')">
+                <div class="menu-title">Biryani Specials</div>
+                <div id="biryani-specials" class="menu-items">
+                    <div><span>Veg Dum Biryani</span> <span>$11.99</span></div>
+                    <div><span>Paneer Dum Biryani</span> <span>$13.99</span></div>
+                    <div><span>Chicken Dum Biryani</span> <span>$14.99</span></div>
+                    <div><span>Special Chicken Dum Biryani</span> <span>$17.99</span></div>
+                    <div><span>Goat Dum Biryani</span> <span>$17.99</span></div>
+                    <div><span>Egg Biryani</span> <span>$13.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Hyderabadi Specials Section -->
+            <div class="menu-section" onclick="toggleMenu('hyderabadi-specials')">
+                <div class="menu-title">Hyderabadi Specials</div>
+                <div id="hyderabadi-specials" class="menu-items">
+                    <div><span>Chai Bun Maska</span> <span>$6.99</span></div>
+                    <div><span>Mutton Maragh Soup</span> <span>$15.99</span></div>
+                    <div><span>Mutton Paya Soup</span> <span>$13.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Desserts Section -->
+            <div class="menu-section" onclick="toggleMenu('desserts')">
+                <div class="menu-title">Desserts</div>
+                <div id="desserts" class="menu-items">
+                    <div><span>Carrot Halwa (Add Ice Cream +$2.00)</span> <span>$4.99</span></div>
+                    <div><span>Double Ka Meetha</span> <span>$4.99</span></div>
+                    <div><span>Kala Jamun</span> <span>$4.99</span></div>
+                    <div><span>Gulab Jamun</span> <span>$4.99</span></div>
+                    <div><span>Brownie Sizzlers (With Ice Cream)</span> <span>$6.99</span></div>
+                    <div><span>Mulberry Malai</span> <span>$6.99</span></div>
+                </div>
+            </div>
+    
+            <!-- Drinks Section -->
+            <div class="menu-section" onclick="toggleMenu('drinks')">
+                <div class="menu-title">Drinks</div>
+                <div id="drinks" class="menu-items">
+                    <div><span>Soda</span> <span>$2.99</span></div>
+                    <div><span>Mango Lassi</span> <span>$4.99</span></div>
+                    <div><span>Water</span> <span>$0.49</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="special">
+        <div id="special-text">
+        <h2 id="special-heading">& Chef's Favorites</h2>
+        <p id="special-sub-heading">Experience the culinary expertise of our chef's favorite dishes.</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="/assets/special-1.png" alt="Special 1">
+                <div class="card-content">
+                    <h3>Margherita Pizza</h3>
+                    <p>Fresh mozzarella, ripe tomatoes, and basil on a wood-fired crust.</p>
+                    <p><strong>Price: $15.99</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/special-2.png" alt="Special 2">
+                <div class="card-content">
+                    <h3>Chicken Tikka Masala</h3>
+                    <p>Marinated chicken in a creamy tomato sauce, served with basmati rice.</p>
+                    <p><strong>Price: $18.99</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/special-3.png" alt="Special 3">
+                <div class="card-content">
+                    <h3>Grilled Salmon</h3>
+                    <p>Perfectly grilled salmon fillet with roasted vegetables and lemon-butter sauce.</p>
+                    <p><strong>Price: $20.99</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/special-1.png" alt="Special 1">
+                <div class="card-content">
+                    <h3>Vegan Buddha Bowl</h3>
+                    <p>Quinoa, chickpeas, avocado, sweet potatoes, kale, and tahini dressing.</p>
+                    <p><strong>Price: $15.99</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/special-2.png" alt="Special 2">
+                <div class="card-content">
+                    <h3>Paneer Butter Masala</h3>
+                    <p>Paneer cubes in a rich, creamy tomato sauce with Indian spices.</p>
+                    <p><strong>Price: $18.99</strong></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/special-3.png" alt="Special 3">
+                <div class="card-content">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p>Warm molten chocolate cake served with vanilla ice cream and berries.</p>
+                    <p><strong>Price: $20.99</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section id="about-us">
+        <div id="about-text">
+            <h2 id="about-heading">Our Story</h2>
+            <p id="about-sub-heading">Each dish promises an unforgettable dining experience, blending innovation with
+                tradition to delight your senses.</p>
+        </div> -->
+</main>
+<script src="/js/script.js"></script>
+</div>
+<!-- <div class="scroll-container">
+    <div class="scroll-text">
+        <span>· Fresh Ingredients ·</span>
+        <span>Delicious Flavors ·</span>
+        <span>Authentic Recipes ·</span>
+        <span>Cozy Atmosphere ·</span>
+        <span>Fresh Ingredients ·</span>
+        <span>Delicious Flavors ·</span>
+        <span>Authentic Recipes ·</span>
+        <span>Cozy Atmosphere ·</span>
+        <span>Fresh Ingredients ·</span>
+        <span>Delicious Flavors ·</span>
+        <span>Authentic Recipes ·</span>
+        <span>Cozy Atmosphere ·</span>
+        <span>Fresh Ingredients ·</span>
+        <span>Delicious Flavors ·</span>
+        <span>Authentic Recipes ·</span>
+        <span>Cozy Atmosphere ·</span>
+        <span>Fresh Ingredients ·</span>
+        <span>Delicious Flavors ·</span>
+        <span>Authentic Recipes ·</span>
+        <span>Cozy Atmosphere ·</span>
+        <span>Fresh Ingredients ·</span>
+        <span>Delicious Flavors ·</span>
+        <span>Authentic Recipes ·</span>
+        <span>Cozy Atmosphere ·</span>
+        <span>Fresh Ingredients ·</span>
+        <span>Delicious Flavors ·</span>
+        <span>Authentic Recipes ·</span>
+        <span>Cozy Atmosphere ·</span>
+    </div>
+</div> -->
+<section class="testimonials">
+    <h2>Our Customers Love Us</h2>
+    <p class="subtitle">Here’s what they have to say</p>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide testimonial">
+                <img src="/assets/client-01.jpg" alt="Customer 1" class="profile-picture">
+                <h3>John Doe</h3>
+                <p class="customer-title">Food Blogger, New York</p>
+                <p class="testimonial-text">"The food was absolutely amazing, and the ambiance was perfect for a
+                    romantic evening."</p>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide testimonial">
+                <img src="/assets/client-02.jpg" alt="Customer 2" class="profile-picture">
+                <h3>Jane Smith</h3>
+                <p class="customer-title">Travel Enthusiast, Los Angeles</p>
+                <p class="testimonial-text">"A wonderful dining experience! The service was top-notch, and the dishes
+                    were full of flavor."</p>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide testimonial">
+                <img src="/assets/client-05.jpg" alt="Customer 3" class="profile-picture">
+                <h3>Emily Johnson</h3>
+                <p class="customer-title">Chef, Chicago</p>
+                <p class="testimonial-text">"As a chef, I'm always looking for new culinary experiences, and this
+                    restaurant did not disappoint. Highly recommended!"</p>
+            </div>
+            <!-- Testimonial 4 -->
+            <div class="swiper-slide testimonial">
+                <img src="/assets/client-04.jpg" alt="Customer 4" class="profile-picture">
+                <h3>Michael Brown</h3>
+                <p class="customer-title">Food Critic, Boston</p>
+                <p class="testimonial-text">"The dishes are a work of art. Every bite was a new experience. Will
+                    definitely come back!"</p>
+            </div>
+            <!-- Testimonial 5 -->
+            <div class="swiper-slide testimonial">
+                <img src="/assets/client-03.jpg" alt="Customer 5" class="profile-picture">
+                <h3>Linda Williams</h3>
+                <p class="customer-title">Travel Blogger, Miami</p>
+                <p class="testimonial-text">"From the appetizers to the desserts, everything was perfect. A must-visit
+                    restaurant!"</p>
+            </div>
+            <!-- Testimonial 6 -->
+            <div class="swiper-slide testimonial">
+                <img src="/assets/client-05.jpg" alt="Customer 6" class="profile-picture">
+                <h3>David Wilson</h3>
+                <p class="customer-title">Gourmet, San Francisco</p>
+                <p class="testimonial-text">"I have traveled the world and this place is among the top. Exceptional food
+                    and service."</p>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+        },
+    });
+</script>
+<!-- <footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <h2>BIRISTA HOUSE</h2>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li><a href="#">OUR MENU</a></li>
+                <li><a href="#">CATERING</a></li>
+                <li><a href="#">CAREERS</a></li>
+                <li><a href="#">LOCATIONS</a></li>
+                <li><a href="#">GIFT CARDS</a></li>
+                <li><a href="#">REWARDS</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>hello@biristahouse.com</p>
+        <p>Copyright &copy; Birista House 2024 All Rights Reserved</p>
+        <p id="footer-sachdev">Designed by <a href="https://sachdev.pages.dev/" target="_blank">Sachdev</a> </p>
+    </div>
+    <div class="pattern"></div>
+</footer> -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About</h3>
+            <p>Discover our story, our philosophy, and what makes us unique in the culinary world.</p>
+            <a href="about.html">Learn More <i class="fa-solid fa-arrow-right fa-bounce"></i></a>
+        </div>
+        <div class="footer-section">
+            <div class="hours">
+                <h3>Hours</h3>
+                <div class="hours-list">
+                    <div class="hours-item">
+                        <span class="day">Monday to Thursday</span>
+                        <span class="time">11:00 AM - 10:00 PM</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Friday to Saturday</span>
+                        <span class="time">11:00 AM - 11:00 PM</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Sunday</span>
+                        <span class="time">11:00 AM - 9:00 PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-section">
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>123 Main Street, City, State 12345</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p><i class="fa-regular fa-envelope"></i> hello@bhouse.com</p>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Birista House. All rights reserved.</p>
+        <!-- <p class="footer-sachdev">Designed by <a href="https://sachdev.pages.dev/" target="_blank">Sachdev</a></p> -->
+    </div>
+</footer>
+<script src="/js/script.js"></script>
+</body>
+</html>
